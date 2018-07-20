@@ -1,5 +1,7 @@
 # AutodeskInventorLaserExporter
-Easily laser cut faces from Autodesk Inventor parts without complicated workarounds
+Easily laser cut faces from Autodesk Inventor without complicated workarounds
+
+![Demonstration Image](https://i.imgur.com/9FZlrst.png)
 
 ## Installation
 
@@ -16,5 +18,9 @@ Right-click on your desired face with Inventor, and select "Export Face As"
 Save it somewhere with default settings (i.e. as a DXF)
 Then, either run
 ```
-python dxf2svg.py myDxfFile.dxf
+python DXFtoSVG.py myDxfFile.dxf
+```
+to convert a single file, or run 
+```
+python batchConvertSVG.py myDxfFile.dxf
 ```
