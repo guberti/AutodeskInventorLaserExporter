@@ -1,6 +1,3 @@
-# AutodeskInventorLaserExporter
-Easily laser cut faces from Autodesk Inventor without complicated workarounds
-
 ![Demonstration Image](https://i.imgur.com/9FZlrst.png)
 
 ## Installation
